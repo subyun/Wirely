@@ -1,0 +1,6 @@
+module Pods_FastCash {
+  umbrella header "Pods-FastCash-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "ECE371ED-816F-419F-961E-FC0F2CD72B3C"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "792A2490-1024-4CF4-961B-5B6448E69711"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FastCash/VerificationViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "49B9DB83-B4F4-4BD7-940B-8BEFD81769A8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FastCash/Api.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "Api"
+            landmarkType = "14">
+            <Locations>
+               <Location
+                  uuid = "49B9DB83-B4F4-4BD7-940B-8BEFD81769A8 - 5bc38c80ca340a06"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "globalinit_33_F5BC308D116416B2CEE2CB9FADC5255B_func0"
+                  moduleName = "FastCash"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/trevorcarpenter/git/TA/ecs189e-w21-homework-3-trevca/FastCash/FastCash/Api.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "32">
+               </Location>
+               <Location
+                  uuid = "49B9DB83-B4F4-4BD7-940B-8BEFD81769A8 - 8d29cfa34bc9c2be"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FastCash.Api.(phoneNumber in _F5BC308D116416B2CEE2CB9FADC5255B).unsafeMutableAddressor : Swift.String"
+                  moduleName = "FastCash"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/trevorcarpenter/git/TA/ecs189e-w21-homework-3-trevca/FastCash/FastCash/Api.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "8">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

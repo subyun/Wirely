@@ -1,0 +1,691 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		58E94D1845F98181EC548710 /* libPods-FastCash.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EAD9BE9C643FA152368DF3E /* libPods-FastCash.a */; };
+		CD19948B25D72C41002526EE /* CustomPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD19948A25D72C41002526EE /* CustomPopup.swift */; };
+		CD19949825D73ADF002526EE /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD19949725D73ADF002526EE /* AccountViewController.swift */; };
+		F236FB49234B0C51002B8FFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F236FB48234B0C51002B8FFD /* AppDelegate.swift */; };
+		F236FB4B234B0C51002B8FFD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F236FB4A234B0C51002B8FFD /* SceneDelegate.swift */; };
+		F236FB4D234B0C51002B8FFD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F236FB4C234B0C51002B8FFD /* ViewController.swift */; };
+		F236FB50234B0C51002B8FFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F236FB4E234B0C51002B8FFD /* Main.storyboard */; };
+		F236FB52234B0C53002B8FFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F236FB51234B0C53002B8FFD /* Assets.xcassets */; };
+		F236FB55234B0C53002B8FFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F236FB53234B0C53002B8FFD /* LaunchScreen.storyboard */; };
+		F236FB60234B0C53002B8FFD /* FastCashTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F236FB5F234B0C53002B8FFD /* FastCashTests.swift */; };
+		F236FB6B234B0C53002B8FFD /* FastCashUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F236FB6A234B0C53002B8FFD /* FastCashUITests.swift */; };
+		F2BA1A7525C32BAC00AD093E /* classes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BA1A7425C32BAC00AD093E /* classes.swift */; };
+		F2BA1A7A25C32BB500AD093E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BA1A7925C32BB500AD093E /* Extensions.swift */; };
+		F2E2D6E525B62E58007DE2BE /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E2D6E425B62E58007DE2BE /* Api.swift */; };
+		F2E2D6FA25B630E4007DE2BE /* VerificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E2D6F925B630E4007DE2BE /* VerificationViewController.swift */; };
+		F2E2D6FF25B63225007DE2BE /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E2D6FE25B63225007DE2BE /* HomeViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F236FB5C234B0C53002B8FFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F236FB3D234B0C51002B8FFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F236FB44234B0C51002B8FFD;
+			remoteInfo = FastCash;
+		};
+		F236FB67234B0C53002B8FFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F236FB3D234B0C51002B8FFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F236FB44234B0C51002B8FFD;
+			remoteInfo = FastCash;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3EAD9BE9C643FA152368DF3E /* libPods-FastCash.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FastCash.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4986282DE0337932A3F700E4 /* Pods-FastCash.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FastCash.release.xcconfig"; path = "Target Support Files/Pods-FastCash/Pods-FastCash.release.xcconfig"; sourceTree = "<group>"; };
+		4CAE56C162F2B93C1445899B /* Pods-FastCash.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FastCash.debug.xcconfig"; path = "Target Support Files/Pods-FastCash/Pods-FastCash.debug.xcconfig"; sourceTree = "<group>"; };
+		CD19948A25D72C41002526EE /* CustomPopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPopup.swift; sourceTree = "<group>"; };
+		CD19949725D73ADF002526EE /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		F236FB45234B0C51002B8FFD /* FastCash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FastCash.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F236FB48234B0C51002B8FFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F236FB4A234B0C51002B8FFD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F236FB4C234B0C51002B8FFD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F236FB4F234B0C51002B8FFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F236FB51234B0C53002B8FFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F236FB54234B0C53002B8FFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F236FB56234B0C53002B8FFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F236FB5B234B0C53002B8FFD /* FastCashTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FastCashTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F236FB5F234B0C53002B8FFD /* FastCashTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FastCashTests.swift; sourceTree = "<group>"; };
+		F236FB61234B0C53002B8FFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F236FB66234B0C53002B8FFD /* FastCashUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FastCashUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F236FB6A234B0C53002B8FFD /* FastCashUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FastCashUITests.swift; sourceTree = "<group>"; };
+		F236FB6C234B0C53002B8FFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2BA1A7425C32BAC00AD093E /* classes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = classes.swift; sourceTree = "<group>"; };
+		F2BA1A7925C32BB500AD093E /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		F2E2D6E425B62E58007DE2BE /* Api.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
+		F2E2D6F925B630E4007DE2BE /* VerificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationViewController.swift; sourceTree = "<group>"; };
+		F2E2D6FE25B63225007DE2BE /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F236FB42234B0C51002B8FFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58E94D1845F98181EC548710 /* libPods-FastCash.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F236FB58234B0C53002B8FFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F236FB63234B0C53002B8FFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F236FB3C234B0C51002B8FFD = {
+			isa = PBXGroup;
+			children = (
+				F236FB5E234B0C53002B8FFD /* FastCashTests */,
+				F236FB47234B0C51002B8FFD /* FastCash */,
+				F236FB69234B0C53002B8FFD /* FastCashUITests */,
+				F236FB46234B0C51002B8FFD /* Products */,
+				FF75E4C6B0ADCF110F6EB63C /* Pods */,
+				FBAFDD3C1FFF1F9CF9CCE999 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F236FB46234B0C51002B8FFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F236FB45234B0C51002B8FFD /* FastCash.app */,
+				F236FB5B234B0C53002B8FFD /* FastCashTests.xctest */,
+				F236FB66234B0C53002B8FFD /* FastCashUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F236FB47234B0C51002B8FFD /* FastCash */ = {
+			isa = PBXGroup;
+			children = (
+				F236FB48234B0C51002B8FFD /* AppDelegate.swift */,
+				F236FB4A234B0C51002B8FFD /* SceneDelegate.swift */,
+				F2BA1A7425C32BAC00AD093E /* classes.swift */,
+				F2BA1A7925C32BB500AD093E /* Extensions.swift */,
+				F236FB4C234B0C51002B8FFD /* ViewController.swift */,
+				F2E2D6E425B62E58007DE2BE /* Api.swift */,
+				F2E2D6F925B630E4007DE2BE /* VerificationViewController.swift */,
+				F236FB4E234B0C51002B8FFD /* Main.storyboard */,
+				F2E2D6FE25B63225007DE2BE /* HomeViewController.swift */,
+				F236FB51234B0C53002B8FFD /* Assets.xcassets */,
+				F236FB53234B0C53002B8FFD /* LaunchScreen.storyboard */,
+				F236FB56234B0C53002B8FFD /* Info.plist */,
+				CD19948A25D72C41002526EE /* CustomPopup.swift */,
+				CD19949725D73ADF002526EE /* AccountViewController.swift */,
+			);
+			path = FastCash;
+			sourceTree = "<group>";
+		};
+		F236FB5E234B0C53002B8FFD /* FastCashTests */ = {
+			isa = PBXGroup;
+			children = (
+				F236FB5F234B0C53002B8FFD /* FastCashTests.swift */,
+				F236FB61234B0C53002B8FFD /* Info.plist */,
+			);
+			path = FastCashTests;
+			sourceTree = "<group>";
+		};
+		F236FB69234B0C53002B8FFD /* FastCashUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F236FB6A234B0C53002B8FFD /* FastCashUITests.swift */,
+				F236FB6C234B0C53002B8FFD /* Info.plist */,
+			);
+			path = FastCashUITests;
+			sourceTree = "<group>";
+		};
+		FBAFDD3C1FFF1F9CF9CCE999 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3EAD9BE9C643FA152368DF3E /* libPods-FastCash.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF75E4C6B0ADCF110F6EB63C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4CAE56C162F2B93C1445899B /* Pods-FastCash.debug.xcconfig */,
+				4986282DE0337932A3F700E4 /* Pods-FastCash.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F236FB44234B0C51002B8FFD /* FastCash */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F236FB6F234B0C53002B8FFD /* Build configuration list for PBXNativeTarget "FastCash" */;
+			buildPhases = (
+				42A1A22A23E2106E5BC172DC /* [CP] Check Pods Manifest.lock */,
+				F236FB41234B0C51002B8FFD /* Sources */,
+				F236FB42234B0C51002B8FFD /* Frameworks */,
+				F236FB43234B0C51002B8FFD /* Resources */,
+				94CEF9546E30C2110F2F721E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FastCash;
+			productName = FastCash;
+			productReference = F236FB45234B0C51002B8FFD /* FastCash.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F236FB5A234B0C53002B8FFD /* FastCashTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F236FB72234B0C53002B8FFD /* Build configuration list for PBXNativeTarget "FastCashTests" */;
+			buildPhases = (
+				F236FB57234B0C53002B8FFD /* Sources */,
+				F236FB58234B0C53002B8FFD /* Frameworks */,
+				F236FB59234B0C53002B8FFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F236FB5D234B0C53002B8FFD /* PBXTargetDependency */,
+			);
+			name = FastCashTests;
+			productName = FastCashTests;
+			productReference = F236FB5B234B0C53002B8FFD /* FastCashTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F236FB65234B0C53002B8FFD /* FastCashUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F236FB75234B0C53002B8FFD /* Build configuration list for PBXNativeTarget "FastCashUITests" */;
+			buildPhases = (
+				F236FB62234B0C53002B8FFD /* Sources */,
+				F236FB63234B0C53002B8FFD /* Frameworks */,
+				F236FB64234B0C53002B8FFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F236FB68234B0C53002B8FFD /* PBXTargetDependency */,
+			);
+			name = FastCashUITests;
+			productName = FastCashUITests;
+			productReference = F236FB66234B0C53002B8FFD /* FastCashUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F236FB3D234B0C51002B8FFD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Trevor Carpenter";
+				TargetAttributes = {
+					F236FB44234B0C51002B8FFD = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					F236FB5A234B0C53002B8FFD = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = F236FB44234B0C51002B8FFD;
+					};
+					F236FB65234B0C53002B8FFD = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = F236FB44234B0C51002B8FFD;
+					};
+				};
+			};
+			buildConfigurationList = F236FB40234B0C51002B8FFD /* Build configuration list for PBXProject "FastCash" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F236FB3C234B0C51002B8FFD;
+			productRefGroup = F236FB46234B0C51002B8FFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F236FB44234B0C51002B8FFD /* FastCash */,
+				F236FB5A234B0C53002B8FFD /* FastCashTests */,
+				F236FB65234B0C53002B8FFD /* FastCashUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F236FB43234B0C51002B8FFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F236FB55234B0C53002B8FFD /* LaunchScreen.storyboard in Resources */,
+				F236FB52234B0C53002B8FFD /* Assets.xcassets in Resources */,
+				F236FB50234B0C51002B8FFD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F236FB59234B0C53002B8FFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F236FB64234B0C53002B8FFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		42A1A22A23E2106E5BC172DC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FastCash-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94CEF9546E30C2110F2F721E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FastCash/Pods-FastCash-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FastCash/Pods-FastCash-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FastCash/Pods-FastCash-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F236FB41234B0C51002B8FFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2BA1A7525C32BAC00AD093E /* classes.swift in Sources */,
+				F236FB4D234B0C51002B8FFD /* ViewController.swift in Sources */,
+				F236FB49234B0C51002B8FFD /* AppDelegate.swift in Sources */,
+				F2BA1A7A25C32BB500AD093E /* Extensions.swift in Sources */,
+				F2E2D6FA25B630E4007DE2BE /* VerificationViewController.swift in Sources */,
+				CD19948B25D72C41002526EE /* CustomPopup.swift in Sources */,
+				CD19949825D73ADF002526EE /* AccountViewController.swift in Sources */,
+				F2E2D6E525B62E58007DE2BE /* Api.swift in Sources */,
+				F236FB4B234B0C51002B8FFD /* SceneDelegate.swift in Sources */,
+				F2E2D6FF25B63225007DE2BE /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F236FB57234B0C53002B8FFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F236FB60234B0C53002B8FFD /* FastCashTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F236FB62234B0C53002B8FFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F236FB6B234B0C53002B8FFD /* FastCashUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F236FB5D234B0C53002B8FFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F236FB44234B0C51002B8FFD /* FastCash */;
+			targetProxy = F236FB5C234B0C53002B8FFD /* PBXContainerItemProxy */;
+		};
+		F236FB68234B0C53002B8FFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F236FB44234B0C51002B8FFD /* FastCash */;
+			targetProxy = F236FB67234B0C53002B8FFD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F236FB4E234B0C51002B8FFD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F236FB4F234B0C51002B8FFD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F236FB53234B0C53002B8FFD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F236FB54234B0C53002B8FFD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F236FB6D234B0C53002B8FFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 6J64DNK6HX;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F236FB6E234B0C53002B8FFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 6J64DNK6HX;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F236FB70234B0C53002B8FFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CAE56C162F2B93C1445899B /* Pods-FastCash.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FastCash/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cs.FastCash;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F236FB71234B0C53002B8FFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4986282DE0337932A3F700E4 /* Pods-FastCash.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FastCash/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cs.FastCash;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F236FB73234B0C53002B8FFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FastCashTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cs.FastCashTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FastCash.app/FastCash";
+			};
+			name = Debug;
+		};
+		F236FB74234B0C53002B8FFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FastCashTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cs.FastCashTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FastCash.app/FastCash";
+			};
+			name = Release;
+		};
+		F236FB76234B0C53002B8FFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FastCashUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cs.FastCashUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FastCash;
+			};
+			name = Debug;
+		};
+		F236FB77234B0C53002B8FFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FastCashUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cs.FastCashUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FastCash;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F236FB40234B0C51002B8FFD /* Build configuration list for PBXProject "FastCash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F236FB6D234B0C53002B8FFD /* Debug */,
+				F236FB6E234B0C53002B8FFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F236FB6F234B0C53002B8FFD /* Build configuration list for PBXNativeTarget "FastCash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F236FB70234B0C53002B8FFD /* Debug */,
+				F236FB71234B0C53002B8FFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F236FB72234B0C53002B8FFD /* Build configuration list for PBXNativeTarget "FastCashTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F236FB73234B0C53002B8FFD /* Debug */,
+				F236FB74234B0C53002B8FFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F236FB75234B0C53002B8FFD /* Build configuration list for PBXNativeTarget "FastCashUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F236FB76234B0C53002B8FFD /* Debug */,
+				F236FB77234B0C53002B8FFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F236FB3D234B0C51002B8FFD /* Project object */;
+}
